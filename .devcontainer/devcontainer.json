@@ -7,7 +7,7 @@
 		}
 	},
 	"forwardPorts": [3000, 9005, 9006],
-	"postCreateCommand": "npm install & (cd server && pip install -r requirements.txt && npm install & python server2.py)",
+	"postCreateCommand": "npm install & (cd server && pip install -r requirements.txt && npm install & python server/server2.py)",
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -37,5 +37,5 @@
 		"9005": { "label": "Flask Backend1 (Port 9005)" },
 		"9006": { "label": "Flask Backend2 (Port 9006)" }
 	},
-	"initializeCommand": "bash -c 'npm run start & (cd server && pip install -r requirements.txt && npm install & python server2.py)'"
+	"initializeCommand": "bash -c 'npm run start & (cd server && pip install -r requirements.txt && npm install & python server/server2.py)'"
 }
