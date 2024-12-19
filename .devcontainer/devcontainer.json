@@ -37,5 +37,5 @@
 		"9005": { "label": "Flask Backend1 (Port 9005)" },
 		"9006": { "label": "Flask Backend2 (Port 9006)" }
 	},
-	"initializeCommand": "bash -c 'npm run start & cd server && npm run start & python server2.py'"
+	"initializeCommand": "bash -c 'npm run start & cd server && npm run start & python ./server/server2.py'"
 }
